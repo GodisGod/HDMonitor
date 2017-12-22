@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical"
+              android:padding="5dp">
+
+    <TextView
+        android:id="@+id/fps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fps:59"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/cpu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cpu : 2.21%"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/mem_pss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pss : 33m"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/mem_private_dirty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="privateDirty:31m"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/net_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@android:color/black"/>
+
+    <hong.monitor.cpu.CpuUsageView
+        android:id="@+id/cpu_state"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+
+</LinearLayout>

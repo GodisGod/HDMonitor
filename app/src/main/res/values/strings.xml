@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="start">开始悬浮</string>
+    <string name="stop">停止悬浮</string>
+    <string name="txt_btn_open">开启悬浮窗</string>
+    <string name="txt_btn_close">关闭悬浮窗</string>
+    <string name="save">保存监听结果</string>
+</resources>
